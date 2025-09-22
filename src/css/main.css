@@ -406,10 +406,41 @@ video {
   .nav-toggle {
     display: none;
   }
-}
 
+  .hero-content p {
+    font-size: 18px;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-content img {
+    width: 786px;
+    height: 393px;
+    margin: auto;
+  }
+
+  .cta-button {
+    padding: 15px 30px;
+    font-size: 17px;
+    font-weight: 700;
+    width: 206px;
+    height: 50px;
+    box-shadow: 0 4px 15px rgba(184, 134, 11, 0.3);
+    margin-top: 32px;
+  }
+
+  .container h2 {
+    font-size: 29px;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+}
 /* DESKTOP - Large screens (1024px and up) */
 @media screen and (min-width: 1024px) {
-
 }
-
